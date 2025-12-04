@@ -42,8 +42,8 @@ foreach (string bank in banks)
 	long pairValue = first * 10L + second;
 	sum1 += pairValue;
 
-	const int digitsToPick = 12;
 	// Part 2
+	const int digitsToPick = 12;
 	if (digits.Length >= digitsToPick)
 	{
 		int start = 0;

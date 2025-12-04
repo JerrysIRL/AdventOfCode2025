@@ -4,6 +4,7 @@
     <projectFile>Day1.csproj</projectFile>
     <projectFile>Day2/Day2.csproj</projectFile>
     <projectFile>Day3/Day3.csproj</projectFile>
+    <projectFile>Day4/Day4.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -11,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ff71fff-cccd-4dc0-b520-ddc805ecd2ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/Day1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Day1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Project.Day1.executor": "Run",
-    ".NET Project.Day3.executor": "Run",
+    ".NET Project.Day3.executor": "Debug",
+    ".NET Project.Day4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -70,7 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Day3">
+  <component name="RunManager" selected=".NET Project.Day4">
     <configuration name="Day1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Day1/bin/Debug/net8.0/Day1.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -140,7 +142,31 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day4" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day4/Day4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue=".NET Project.Day4" />
       <item itemvalue=".NET Project.Day1" />
       <item itemvalue=".NET Project.Day2" />
       <item itemvalue=".NET Project.Day3" />
@@ -161,7 +187,8 @@
       <workItem from="1764699312220" duration="1237000" />
       <workItem from="1764784298740" duration="62000" />
       <workItem from="1764784372341" duration="854000" />
-      <workItem from="1764796491426" duration="3535000" />
+      <workItem from="1764796491426" duration="3568000" />
+      <workItem from="1764866031041" duration="2713000" />
     </task>
     <servers />
   </component>
