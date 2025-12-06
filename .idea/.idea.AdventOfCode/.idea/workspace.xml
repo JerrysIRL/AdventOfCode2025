@@ -5,6 +5,7 @@
     <projectFile>Day2/Day2.csproj</projectFile>
     <projectFile>Day3/Day3.csproj</projectFile>
     <projectFile>Day4/Day4.csproj</projectFile>
+    <projectFile>Day5/Day5.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -13,7 +14,6 @@
     <list default="true" id="7ff71fff-cccd-4dc0-b520-ddc805ecd2ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +39,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2141dcd6a142c9c1eeb8aa8ec988ea6ace78796992883a4e8c484724bcfcbb6/AnyAll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/261ea83c988816e3d8fe76b15b7ac6c10af64b8f9e739854f83c137c8ba9/SafeFileHandle.Windows.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../AdventOfCode2024/Day1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -59,7 +58,8 @@
   "keyToString": {
     ".NET Project.Day1.executor": "Run",
     ".NET Project.Day3.executor": "Debug",
-    ".NET Project.Day4.executor": "Run",
+    ".NET Project.Day4.executor": "Debug",
+    ".NET Project.Day5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -72,7 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Day4">
+  <component name="RunManager" selected=".NET Project.Day5">
     <configuration name="Day1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Day1/bin/Debug/net8.0/Day1.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -165,7 +165,31 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day5" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day5/Day5.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue=".NET Project.Day5" />
       <item itemvalue=".NET Project.Day4" />
       <item itemvalue=".NET Project.Day1" />
       <item itemvalue=".NET Project.Day2" />
@@ -188,7 +212,8 @@
       <workItem from="1764784298740" duration="62000" />
       <workItem from="1764784372341" duration="854000" />
       <workItem from="1764796491426" duration="3568000" />
-      <workItem from="1764866031041" duration="2713000" />
+      <workItem from="1764866031041" duration="3609000" />
+      <workItem from="1765025276242" duration="3736000" />
     </task>
     <servers />
   </component>
